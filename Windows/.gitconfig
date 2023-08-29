@@ -1,0 +1,13 @@
+[user]
+	; Gitアカウント情報
+	name = Rem_
+	email = black.white.red.are.the.best@gmail.com
+[safe]
+	; ディレクトリの安全性を保証する (全てのディレクトリ)
+	directory = *
+[core]
+	; 改行コードを自動的に変換する (チェックアウト=>元のまま,コミット=>Linuxの改行コードへの変換)
+	autocrlf = input
+[commit]
+	; `git commit`を実行した際にテンプレートを表示する
+	template = C:/Git/git/git-commit-message-template/.git_commit_message_template
