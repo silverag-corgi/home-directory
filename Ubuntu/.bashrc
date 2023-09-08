@@ -116,5 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Add time to bash_histroy.
+# display time in the bash_histroy.
 export HISTTIMEFORMAT='[%Y-%m-%d %H:%M:%S] '
